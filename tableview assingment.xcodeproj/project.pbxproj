@@ -12,6 +12,8 @@
 		2EFE3CF91C8C5E3C004B8AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE3CF71C8C5E3C004B8AEA /* Main.storyboard */; };
 		2EFE3CFB1C8C5E3C004B8AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE3CFA1C8C5E3C004B8AEA /* Assets.xcassets */; };
 		2EFE3CFE1C8C5E3C004B8AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE3CFC1C8C5E3C004B8AEA /* LaunchScreen.storyboard */; };
+		2EFE3D081C8C7F3D004B8AEA /* ContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE3D071C8C7F3D004B8AEA /* ContactViewCell.swift */; };
+		2EFE3D0E1C8C85DB004B8AEA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE3D0D1C8C85DB004B8AEA /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2EFE3CFA1C8C5E3C004B8AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFE3CFD1C8C5E3C004B8AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFE3CFF1C8C5E3C004B8AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFE3D071C8C7F3D004B8AEA /* ContactViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewCell.swift; sourceTree = "<group>"; };
+		2EFE3D0D1C8C85DB004B8AEA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2EFE3CFA1C8C5E3C004B8AEA /* Assets.xcassets */,
 				2EFE3CFC1C8C5E3C004B8AEA /* LaunchScreen.storyboard */,
 				2EFE3CFF1C8C5E3C004B8AEA /* Info.plist */,
+				2EFE3D071C8C7F3D004B8AEA /* ContactViewCell.swift */,
+				2EFE3D0D1C8C85DB004B8AEA /* Contact.swift */,
 			);
 			path = "tableview assingment";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFE3D0E1C8C85DB004B8AEA /* Contact.swift in Sources */,
 				2EFE3CF61C8C5E3C004B8AEA /* ViewController.swift in Sources */,
 				2EFE3CF41C8C5E3C004B8AEA /* AppDelegate.swift in Sources */,
+				2EFE3D081C8C7F3D004B8AEA /* ContactViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
